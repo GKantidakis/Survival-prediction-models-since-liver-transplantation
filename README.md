@@ -1,12 +1,12 @@
 # Survival-prediction-models-since-liver-transplantation
 This repository stores the R-code for the comparison between Cox models and machine-learning techniques.
 
-The Cox models applied are: 
+The Cox models used are: 
 1) A cox model with 106 prognostic factors (52 regarding donor and 54 regarding patient characteristics)
 2) A Cox model with backward elimination
 3) A Cox model with LASSO selection
 
-The machine learning applied are: 
+The machine learning used are: 
 
 a) A random survival forest 
 
