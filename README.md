@@ -7,8 +7,7 @@ The Cox models applied are:
 3) A Cox model with LASSO selection
 
 The machine learning applied are:
+
 A) A random survival forest
-
 B) A partial logistic artificial neural network with 1 hidden layer
-
 C) A partial logistic artificial neural network with 2 hidden layers
