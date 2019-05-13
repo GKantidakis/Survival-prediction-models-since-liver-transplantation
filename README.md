@@ -8,8 +8,8 @@ The Cox models applied are:
 
 The machine learning applied are: 
 
-A) A random survival forest 
+a) A random survival forest 
 
-B) A partial logistic artificial neural network with 1 hidden layer
+b) A partial logistic artificial neural network with 1 hidden layer
 
-C) A partial logistic artificial neural network with 2 hidden layers
+c) A partial logistic artificial neural network with 2 hidden layers
