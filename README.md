@@ -6,7 +6,7 @@ The Cox models applied are:
 2) A Cox model with backward elimination
 3) A Cox model with LASSO selection
 
-The machine learning applied are:
+The machine learning applied are: 
 
 A) A random survival forest
 B) A partial logistic artificial neural network with 1 hidden layer
