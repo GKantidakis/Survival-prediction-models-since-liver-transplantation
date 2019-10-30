@@ -686,7 +686,7 @@ f_cox_all <- as.formula(paste("Surv(gs_ffs, gs_ffsstate)~",
 
 test_ph <- cox.zph(cox_all)
 round(test_ph$table[, 3], digits = 3)
-# 23 variables (25 var levels) violate the proportionality of hazards assumption
+# 17 variables (19 var levels) violate the proportionality of hazards assumption
 round(test_ph$table[, 3], digits = 3)[which(test_ph$table[, 3] < 0.05)]
 
 # coefficients from the Cox model 
