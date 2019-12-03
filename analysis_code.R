@@ -3323,9 +3323,9 @@ lines(times, synth_nn1h[3, ], col = "orange", lty = 2, lwd  = 2)
 
 
 legend("bottomleft", legend = c("Cox", "RSF", "NN", 
-                                "pat 1: censored at 1.12y",
-                                "pat 2: censored at 6.86y",
-                                "pat 3: died at 0.12y"),
+                                "patient 1",
+                                "patient 2",
+                                "patient 3"),
        lty = c(1, 3, 2, 1, 1, 1) , col = c("black", "black", "black",
                                            "green", "orange", "red"),
        bty = "n", cex = 0.75, border = "white", xjust = 0)
