@@ -1723,6 +1723,7 @@ for (i in 1:nfolds) {
         "and learning rate", combis[j, 3], "and weak class weight", combis[j, 4],
         "and momentum", combis[j, 5], "...", "\n")
     
+    k_clear_session() # to avoid clutter from old models / layers in cross validation
     # start building the model
     fit_keras <- keras_model_sequential()
     # Add layers to the model
@@ -2078,6 +2079,7 @@ for (i in 1:nfolds) {
         "and learning rate", combis[j, 3], "and weak class weight", combis[j, 4],
         "and momentum", combis[j, 5], "...", "\n")
     
+    k_clear_session() # to avoid clutter from old models / layers in cross validation
     # start building the model
     fit_keras <- keras_model_sequential()
     # Add layers to the model
