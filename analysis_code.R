@@ -2311,9 +2311,9 @@ event_status <- test_ffs_scaled$gs_ffsstate
 train_x <- as.matrix(training_ffs_long[, c(1:119, 126:135)]) 
 dimnames(train_x) <- NULL # the object must have empty dimnames
 train_y <- training_ffs_long$status
-test_x <- as.matrix(test_ffs_long[, c(1:119, 126:135)])
+test_x <- as.matrix(validation_ffs_long[, c(1:119, 126:135)])
 dimnames(test_x) <- NULL # the object must have empty dimnames
-test_y <- test_ffs_long$status
+test_y <- validation_ffs_long$status
 
 result <- fit_keras %>% fit(
   train_x, 
@@ -2401,9 +2401,9 @@ event_status <- test_ffs_scaled$gs_ffsstate
 train_x <- as.matrix(training_ffs_long[, c(1:119, 126:135)]) # predictors: 119 variables + interval
 dimnames(train_x) <- NULL # the object must have empty dimnames
 train_y <- training_ffs_long$status
-test_x <- as.matrix(test_ffs_long[, c(1:119, 126:135)])
+test_x <- as.matrix(validation_ffs_long[, c(1:119, 126:135)])
 dimnames(test_x) <- NULL # the object must have empty dimnames
-test_y <- test_ffs_long$status
+test_y <- validation_ffs_long$status
 
 result <- fit_keras2 %>% fit(
   train_x, 
@@ -2897,9 +2897,9 @@ event_status <- test_ffs_scaled$gs_ffsstate
 train_x <- as.matrix(training_ffs_long[, c(1:119, 126:135)]) 
 dimnames(train_x) <- NULL # the object must have empty dimnames
 train_y <- training_ffs_long$status
-test_x <- as.matrix(test_ffs_long[, c(1:119, 126:135)])
+test_x <- as.matrix(validation_ffs_long[, c(1:119, 126:135)])
 dimnames(test_x) <- NULL # the object must have empty dimnames
-test_y <- test_ffs_long$status
+test_y <- validation_ffs_long$status
 
 result <- fit_keras %>% fit(
   train_x, 
@@ -3254,9 +3254,9 @@ event_status <- test_ffs_scaled$gs_ffsstate
 train_x <- as.matrix(training_ffs_long[, c(1:119, 126:135)]) 
 dimnames(train_x) <- NULL # the object must have empty dimnames
 train_y <- training_ffs_long$status
-test_x <- as.matrix(test_ffs_long[, c(1:119, 126:135)])
+test_x <- as.matrix(validation_ffs_long[, c(1:119, 126:135)])
 dimnames(test_x) <- NULL # the object must have empty dimnames
-test_y <- test_ffs_long$status
+test_y <- validation_ffs_long$status
 
 result <- fit_keras %>% fit(
   train_x, 
